@@ -1,0 +1,44 @@
+# github.com/hashicorp/errwrap v1.0.0
+## explicit
+github.com/hashicorp/errwrap
+# github.com/hashicorp/go-multierror v1.0.0
+## explicit
+github.com/hashicorp/go-multierror
+# github.com/itsabgr/go-handy v0.0.0-20220613131838-1df4f512cf6b
+## explicit; go 1.18
+github.com/itsabgr/go-handy
+# github.com/posener/cmd v1.3.4
+## explicit; go 1.13
+github.com/posener/cmd
+# github.com/posener/complete/v2 v2.0.1-alpha.12
+## explicit; go 1.13
+github.com/posener/complete/v2
+github.com/posener/complete/v2/compflag
+github.com/posener/complete/v2/install
+github.com/posener/complete/v2/internal/arg
+github.com/posener/complete/v2/internal/tokener
+github.com/posener/complete/v2/predict
+# github.com/posener/formatter v1.0.0
+## explicit; go 1.13
+github.com/posener/formatter
+# github.com/posener/script v1.0.4
+## explicit; go 1.13
+github.com/posener/script
+# golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
+## explicit; go 1.17
+golang.org/x/crypto/internal/poly1305
+golang.org/x/crypto/internal/subtle
+golang.org/x/crypto/nacl/secretbox
+golang.org/x/crypto/salsa20/salsa
+# golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2
+## explicit; go 1.17
+golang.org/x/net/bpf
+golang.org/x/net/internal/iana
+golang.org/x/net/internal/socket
+golang.org/x/net/ipv4
+# golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1
+## explicit; go 1.17
+golang.org/x/sys/cpu
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+golang.org/x/sys/windows
