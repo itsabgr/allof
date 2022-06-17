@@ -52,6 +52,9 @@ func (node *Node) send(data []byte) error {
 		MsgS[i].Buffers = net.Buffers{data}
 	}
 	node.mutex.RUnlock()
+	if len(MsgS) == 0 {
+		return nil
+	}
 	_, err := node.conn.WriteBatch(MsgS, 0)
 	return err
 }
